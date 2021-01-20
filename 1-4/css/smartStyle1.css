@@ -1,0 +1,109 @@
+@media screen and (max-width: 767px) {
+    .wrapper {
+        margin: 0px,auto;
+    }
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+     }
+    .header {
+        background-color: #141f40;
+        height: 100px;
+        width: 300px;
+    }
+    .content-left {
+        float: left;
+        background-color: #80bfa8;
+        height: 250px;
+        width: 100px;
+    }
+    .contetnts {
+        float: left;
+    }
+    .center-contents {
+        float: left;
+    }
+    .content-center-top {
+        background-color: #dbd400;
+        height: 50px;
+        width: 125px;
+        }
+    .content-center-bottom {
+        background-color: #0093b7;
+        height: 100px;
+        width: 125px;
+    }
+    .content-right {
+        float: left;
+        background-color: #ff9e6b;
+        height: 150px;
+        width: 75px;
+    }
+    .content-bottom {
+        float: left;
+        background-color: #8c2727;
+        height: 100px;
+        width: 200px;
+    }
+    .footer {
+        background-color: #d98d30;
+        height: 100px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 600px)  {
+    .wrapper {
+        float: none;
+        margin: 0px,auto;
+    }
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+     }
+    .header {
+        background-color: #141f40;
+        height: 100px;
+        width: 150px;
+    }
+    .content-left {
+        float: left;
+        background-color: #80bfa8;
+        height: 250px;
+        width: 150px;
+    }
+    .contetnts {
+        float: none;
+    }
+    .center-contents {
+        float: none;
+    }
+    .content-center-top {
+        background-color: #dbd400;
+        height: 50px;
+        width: 150px;
+        }
+    .content-center-bottom {
+        background-color: #0093b7;
+        height: 100px;
+        width: 150px;
+    }
+    .content-right {
+        float: none;
+        background-color: #ff9e6b;
+        height: 150px;
+        width: 150px;
+    }
+    .content-bottom {
+        float: none;
+        background-color: #8c2727;
+        height: 100px;
+        width: 150px;
+    }
+    .footer {
+        background-color: #d98d30;
+        height: 100px;
+        width: 150px;
+    }
+}

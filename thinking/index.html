@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<title>TEST1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form action="" method="post">
+			<input type="hidden" name="test" value="呼び出せた！">
+			<input type="submit" value="送信">
+			<?php
+			if ( isset( $_POST['test'] ) ) {
+				var_dump( $_POST['test'] );
+			} else {
+				echo '受け取れてないよ';
+			}
+			?>
+    </form>
+</body>
+</html>

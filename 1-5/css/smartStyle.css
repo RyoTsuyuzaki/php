@@ -1,0 +1,84 @@
+@media screen and (max-width: 767px) {s
+        .body {
+            width: 100%;
+        }
+        .wrapper {
+            margin: 0,auto;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .header  {
+            width: 200px;
+            height: 220px;
+            background-color: #141f40;
+        }
+        .herader-item {
+            position: relative;
+            top: 20px; left: 70px;
+        }
+        .header-box{
+            float: none;
+            background-color: #a9004b;
+            border: solid white 10px;
+            width: 40px;
+            height: 40px;
+        }
+        .header-box-center{
+            float: none;
+            background-color: #a9004b;
+            border-style: solid;
+            border-left-width: 10px;
+            border-right-width: 10px;
+            border-color: white;
+            width: 40px;
+            height: 40px;
+        }
+        .center-left {
+            float: none;
+            background-color: #80bfa8;
+            width: 200px;
+            height: 250px;
+        }
+        .center-right {
+            background-color: #8c2727;
+            width: 200px;
+            height: 250px;
+        }
+        .center-right-item {
+            width: 140px;
+            position: relative;
+            top: 10px; left: 20px;
+        }
+        .center-right-box {
+            float: none;
+            box-sizing: border-box;
+            width: 140px;
+            height: 50px;
+            border: solid white 5px;
+            background-color: #ff863f;
+        }
+        .center-right-box1 {
+            float: none;
+            box-sizing: border-box;
+            width: 140px;
+            height: 50px;
+            border: solid white 5px;
+            background-color: #ff863f;
+        }
+        .center-right-box2 {
+            float: none;
+            box-sizing: border-box;
+            width: 140px;
+            height: 50px;
+            border: solid white 5px;
+            background-color: #ff863f;
+        }
+        .footer {
+            background-color: #d98d30;
+            width: 200px;
+            height: 100px;
+        }
+}
